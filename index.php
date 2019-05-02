@@ -61,7 +61,7 @@ function GetFileData($files)
     $name_start      = $path_end + 1;
     $name_end        = abs(strlen($fullpath) - $start);
     $name            = substr($fullpath, $name_start, $name_end);
-    $clean_name      = kebabToCamel(explode('.', $name));
+    $clean_name      = kebabToCamel(explode('.', $name)[0]);
     $module_filename = str_replace('component', 'module', $name);
     if (strpos($name, 'component.ts') == true)
     {
