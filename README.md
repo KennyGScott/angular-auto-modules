@@ -1,5 +1,5 @@
 # angular-auto-modules
-generates a module for each component recursively given a base directory.
+generates a module for each component recursively given a base directory. No, you don't need, and probably shouldn't have a module for every component, but when you need a lot of them, this is just way easier than using CLI.
 
 
 ## Usage
